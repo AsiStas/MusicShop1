@@ -1,0 +1,4 @@
+com/example/musicshop/BuildConfig.java
+ com.example.musicshop.BuildConfig
+com/example/musicshop/MainActivity.java
+ com.example.musicshop.MainActivity

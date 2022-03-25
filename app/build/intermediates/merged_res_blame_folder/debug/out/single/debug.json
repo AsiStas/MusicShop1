@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_lada.png.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable-v24\\lada.png"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_f.png.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable-v24\\f.png"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_h.webp.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable-v24\\h.webp"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pr.png.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable-v24\\pr.png"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_kls.png.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable-v24\\kls.png"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\font_aclonica.xml.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\font\\aclonica.xml"
+    },
+    {
+        "merged": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_km.png.flat",
+        "source": "C:\\Users\\potok1\\AndroidStudioProjects\\MusicShop\\app\\src\\main\\res\\drawable-v24\\km.png"
+    }
+]
