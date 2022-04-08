@@ -2449,11 +2449,14 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable butter
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dw
+drawable dynamite
 drawable f
 drawable h
 drawable ic_clock_black_24dp
@@ -2512,6 +2515,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pr
+drawable ptd
+drawable sla
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2838,6 +2843,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id orderTextView
 id outline
 id outward
 id overshoot
@@ -3093,6 +3099,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_order
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

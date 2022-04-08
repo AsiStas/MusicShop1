@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MusicShop" >
         <activity
+            android:name="com.example.musicshop.OrderActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.musicshop.MainActivity"
             android:exported="true" >
             <intent-filter>

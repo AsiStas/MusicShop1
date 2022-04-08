@@ -2,10 +2,13 @@ package com.example.musicshop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -22,20 +25,24 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     HashMap goodsMap;
     String goodsname;
     double price;
+    EditText userNameEditText;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        userNameEditText = findViewById(R.id.editTextTextPersonName);
+
         spinner = findViewById(R.id.spinner4);
         spinner.setOnItemSelectedListener(this);
         spinnerarraylist = new ArrayList();
 
-        spinnerarraylist.add("АК-74");
-        spinnerarraylist.add("Молотов");
-        spinnerarraylist.add("Перчатки");
-        spinnerarraylist.add("LADA");
+        spinnerarraylist.add("Butter");
+        spinnerarraylist.add("PTD");
+        spinnerarraylist.add("Dark&Wild");
+        spinnerarraylist.add("SLA");
 
 
         spinneradapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, spinnerarraylist);
@@ -43,10 +50,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         spinner.setAdapter(spinneradapter);
 
         goodsMap = new HashMap();
-        goodsMap.put("АК-74", 1300.0);
-        goodsMap.put("Молотов", 1213.0);
-        goodsMap.put("Перчатки", 1123.0);
-        goodsMap.put("LADA", 1322.0);
+        goodsMap.put("Butter", 2500.0);
+        goodsMap.put("PTD", 1650.0);
+        goodsMap.put("Dark&Wild", 1000.0);
+        goodsMap.put("SLA", 1322.0);
 
 
     }
@@ -80,26 +87,50 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         ImageView goodsImageView = findViewById(R.id.goodsimageView);
 
         switch (goodsname){
-            case "АК-74":
-                goodsImageView.setImageResource(R.drawable.f);
+            case "Butter":
+                goodsImageView.setImageResource(R.drawable.butter);
                 break;
-            case "Молотов":
-                goodsImageView.setImageResource(R.drawable.km);
+            case "PTD":
+                goodsImageView.setImageResource(R.drawable.ptd);
                 break;
-            case "Перчатки":
-                goodsImageView.setImageResource(R.drawable.pr);
+            case "Dark&Wild":
+                goodsImageView.setImageResource(R.drawable.dw);
                 break;
-            case "LADA":
-                goodsImageView.setImageResource(R.drawable.lada);
+            case "SLA":
+                goodsImageView.setImageResource(R.drawable.sla);
                 break;
             default:
-                goodsImageView.setImageResource(R.drawable.f);
+                goodsImageView.setImageResource(R.drawable.butter);
                 break;
         }
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
+
+    }
+
+    public void addToCart(View view) {
+        Order order = new Order();
+
+        order.userName = userNameEditText.getText().toString();
+
+        order.goodsname = goodsname;
+
+        order.quantity = quantity;
+
+        order.price = price;
+
+        order.orderPrice = quantity * price;
+
+        Intent orderIntent = new Intent(MainActivity.this, OrderActivity.class);
+        orderIntent.putExtra("userNameForIntent", order.userName);
+        orderIntent.putExtra("goodsname", order.goodsname);
+        orderIntent.putExtra("quantity", order.quantity);
+        orderIntent.putExtra("price", order.price);
+        orderIntent.putExtra("orderPrice", order.orderPrice);
+        startActivity(orderIntent);
+
 
     }
 }
